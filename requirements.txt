@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+streamlit
+transformers
+pymilvus
+langchain
+pandas
+requests
