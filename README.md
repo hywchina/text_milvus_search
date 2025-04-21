@@ -1,4 +1,6 @@
 ## 项目目录如下
+
+```shell
 .
 ├── data
 │   ├── 红楼梦.txt
@@ -24,7 +26,7 @@ requirements.txt：本项目需要安装的依赖
     ├── search_api.py ：基于已落表的数据库进行api搭建（可以使用fastapi）
     ├── search_streamlit.py：基于search api 搭建基于streamlit的前端页面
     └── test_api.py：测试 search api 的使用情况
-
+```
 
 ## 步骤 
 1. 启动embedding 服务
@@ -44,14 +46,14 @@ uvicorn embedding_service:app --host 0.0.0.0 --port 8001
         $ bash standalone_embed.sh delete
 
     链接attu：
-    docker run -p 8000:3000 -e MILVUS_URL={milvus server IP}:19530 zilliz/attu:v2.5
+    docker run -p 8000:3000 -e MILVUS_URL=172.18.20.155:19530 zilliz/attu:v2.5
 
 
 2. 插入数据
 python src/ingest.py
 
 3. 启动search_api 
-uvicorn src.search_api:app --host 0.0.0.0 --port 8000
+uvicorn src.search_api:app --host 0.0.0.0 --port 8002
 
 4. 测试api 服务 
 python test/test_search_api.py 
@@ -59,4 +61,10 @@ python test/test_search_api.py
 5. 启动streamlit 前端
 streamlit run src/streamlit_milvus.py
 
+
+
+## 待办
+- [ ] 各脚本涉及到的超参数统一配置
+- [ ] docker 部署
+- [ ] 
 
