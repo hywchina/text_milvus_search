@@ -58,6 +58,8 @@ def save_metadata(metadata: dict):
         p = e.get("path")
         if p in metadata:
             e.update({"md5": metadata[p]["md5"], "inserted": metadata[p]["inserted"]})
+            if "chunks" in metadata[p]:
+                e["chunks"] = metadata[p]["chunks"]
             seen.add(p)
         updated.append(e)
     for p, m in metadata.items():
@@ -77,20 +79,26 @@ def file_md5(path: str) -> str:
 
 
 def chunk_text(text: str) -> list:
+    """
+    将文本分块，每块最多 CHUNK_SIZE 字符，且每块间重叠 CHUNK_OVERLAP 字符，同时确保每块字节数不超过 max_bytes。
+    """
     max_bytes = 1024
     chunks = []
     start = 0
     L = len(text)
     while start < L:
-        end = start + CHUNK_SIZE
-        chunk = text[start:end]
-        while len(chunk.encode("utf-8")) > max_bytes:
+        # 计算初始结束位置，不能超过文本长度
+        end = min(start + CHUNK_SIZE, L)
+        # 如果块字节数超过限制，则逐步缩减 end
+        while end > start and len(text[start:end].encode("utf-8")) > max_bytes:
             end -= 1
-            chunk = text[start:end]
+        chunk = text[start:end]
         chunks.append(chunk)
-        start += CHUNK_SIZE - CHUNK_OVERLAP
+        # 如果已到达文本末尾，则退出
         if end >= L:
             break
+        # 下一个块起始位置：在 end 之上回退 overlap，保证重叠覆盖
+        start = max(0, end - CHUNK_OVERLAP)
     return chunks
 
 # ---------------------------------------------------------------------
@@ -182,11 +190,12 @@ def main():
         ]
         col.insert(entities)
 
+        # 插入完成后立即更新元数据并保存
         metadata[path]["inserted"] = True
         metadata[path]["chunks"] = len(chunks)
-        print(f"Inserted {len(chunks)} chunks for {fname}.")
+        save_metadata(metadata)
+        print(f"Inserted {len(chunks)} chunks for {fname}. Metadata updated.")
 
-    save_metadata(metadata)
     print("Ingestion complete.")
 
 if __name__ == "__main__":

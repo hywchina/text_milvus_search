@@ -6,3 +6,4 @@ pymilvus
 langchain
 pandas
 requests
+FlagEmbedding
