@@ -1,0 +1,373 @@
+{
+  "1": {
+    "name": "钢材",
+    "type": "material",
+    "attributes": {
+      "strength": "250 MPa",
+      "density": "7850 kg/m3"
+    },
+    "cluster": [
+      11,
+      12
+    ]
+  },
+  "2": {
+    "name": "混凝土",
+    "type": "material",
+    "attributes": {
+      "strength": "30 MPa",
+      "density": "2400 kg/m3"
+    },
+    "cluster": [
+      13,
+      14
+    ]
+  },
+  "3": {
+    "name": "玻璃",
+    "type": "material",
+    "attributes": {
+      "strength": "50 MPa",
+      "density": "2500 kg/m3"
+    },
+    "cluster": [
+      15,
+      16
+    ]
+  },
+  "4": {
+    "name": "砖块",
+    "type": "material",
+    "attributes": {
+      "strength": "10 MPa",
+      "density": "1800 kg/m3"
+    },
+    "cluster": [
+      17,
+      18
+    ]
+  },
+  "5": {
+    "name": "木材",
+    "type": "material",
+    "attributes": {
+      "strength": "40 MPa",
+      "density": "600 kg/m3"
+    },
+    "cluster": [
+      19,
+      20
+    ]
+  },
+  "6": {
+    "name": "屋顶",
+    "type": "component",
+    "attributes": {
+      "material": "Tile",
+      "area": "120 sqm"
+    },
+    "cluster": [
+      25,
+      26
+    ]
+  },
+  "7": {
+    "name": "门",
+    "type": "component",
+    "attributes": {
+      "material": "Steel",
+      "height": "2 meters"
+    },
+    "cluster": [
+      27,
+      28
+    ]
+  },
+  "8": {
+    "name": "窗户",
+    "type": "component",
+    "attributes": {
+      "material": "Glass",
+      "area": "3 sqm"
+    },
+    "cluster": [
+      29,
+      30
+    ]
+  },
+  "9": {
+    "name": "天安门",
+    "type": "building",
+    "attributes": {
+      "height": "32 meters",
+      "area": "44000 sqm"
+    },
+    "cluster": [
+      1
+    ]
+  },
+  "10": {
+    "name": "Tiananmen",
+    "type": "building",
+    "attributes": {
+      "height": "32 meters",
+      "area": "44000 sqm"
+    },
+    "cluster": [
+      2
+    ]
+  },
+  "11": {
+    "name": "故宫",
+    "type": "building",
+    "attributes": {
+      "height": "30 meters",
+      "area": "720000 sqm"
+    },
+    "cluster": [
+      3
+    ]
+  },
+  "12": {
+    "name": "The Forbidden City",
+    "type": "building",
+    "attributes": {
+      "height": "30 meters",
+      "area": "720000 sqm"
+    },
+    "cluster": [
+      4
+    ]
+  },
+  "13": {
+    "name": "鸟巢",
+    "type": "building",
+    "attributes": {
+      "height": "69 meters",
+      "area": "258000 sqm"
+    },
+    "cluster": [
+      5
+    ]
+  },
+  "14": {
+    "name": "Bird's Nest",
+    "type": "building",
+    "attributes": {
+      "height": "69 meters",
+      "area": "258000 sqm"
+    },
+    "cluster": [
+      6
+    ]
+  },
+  "15": {
+    "name": "长城",
+    "type": "building",
+    "attributes": {
+      "height": "8 meters",
+      "area": "2150000 sqm"
+    },
+    "cluster": [
+      7
+    ]
+  },
+  "16": {
+    "name": "Great Wall",
+    "type": "building",
+    "attributes": {
+      "height": "8 meters",
+      "area": "2150000 sqm"
+    },
+    "cluster": [
+      8
+    ]
+  },
+  "17": {
+    "name": "广州塔",
+    "type": "building",
+    "attributes": {
+      "height": "600 meters",
+      "area": "194000 sqm"
+    },
+    "cluster": [
+      9
+    ]
+  },
+  "18": {
+    "name": "Canton Tower",
+    "type": "building",
+    "attributes": {
+      "height": "600 meters",
+      "area": "194000 sqm"
+    },
+    "cluster": [
+      10
+    ]
+  },
+  "19": {
+    "name": "梁",
+    "type": "component",
+    "attributes": {
+      "material": "Steel",
+      "length": "6 meters"
+    },
+    "cluster": [
+      21
+    ]
+  },
+  "20": {
+    "name": "Beam",
+    "type": "component",
+    "attributes": {
+      "material": "Steel",
+      "length": "6 meters"
+    },
+    "cluster": [
+      22
+    ]
+  },
+  "21": {
+    "name": "柱",
+    "type": "component",
+    "attributes": {
+      "material": "Concrete",
+      "length": "4 meters"
+    },
+    "cluster": [
+      23
+    ]
+  },
+  "22": {
+    "name": "Column",
+    "type": "component",
+    "attributes": {
+      "material": "Concrete",
+      "length": "4 meters"
+    },
+    "cluster": [
+      24
+    ]
+  },
+  "23": {
+    "name": "华建设计院",
+    "type": "design_company",
+    "attributes": {
+      "established_year": 1985,
+      "employees": "200"
+    },
+    "cluster": [
+      31
+    ]
+  },
+  "24": {
+    "name": "China Architecture Design Institute",
+    "type": "design_company",
+    "attributes": {
+      "established_year": 1985,
+      "employees": "200"
+    },
+    "cluster": [
+      32
+    ]
+  },
+  "25": {
+    "name": "清华建筑设计",
+    "type": "design_company",
+    "attributes": {
+      "established_year": 1990,
+      "employees": "150"
+    },
+    "cluster": [
+      33
+    ]
+  },
+  "26": {
+    "name": "Tsinghua Architecture Design",
+    "type": "design_company",
+    "attributes": {
+      "established_year": 1990,
+      "employees": "150"
+    },
+    "cluster": [
+      34
+    ]
+  },
+  "27": {
+    "name": "同济建筑设计",
+    "type": "design_company",
+    "attributes": {
+      "established_year": 1975,
+      "employees": "250"
+    },
+    "cluster": [
+      35
+    ]
+  },
+  "28": {
+    "name": "Tongji Architecture Design",
+    "type": "design_company",
+    "attributes": {
+      "established_year": 1975,
+      "employees": "250"
+    },
+    "cluster": [
+      36
+    ]
+  },
+  "29": {
+    "name": "张三",
+    "type": "architect",
+    "attributes": {
+      "birth_year": 1970,
+      "works": "天安门"
+    },
+    "cluster": [
+      37
+    ]
+  },
+  "30": {
+    "name": "Li Si",
+    "type": "architect",
+    "attributes": {
+      "birth_year": 1975,
+      "works": "鸟巢"
+    },
+    "cluster": [
+      38
+    ]
+  },
+  "31": {
+    "name": "王五",
+    "type": "architect",
+    "attributes": {
+      "birth_year": 1980,
+      "works": "上海中心大厦"
+    },
+    "cluster": [
+      39
+    ]
+  },
+  "32": {
+    "name": "赵六",
+    "type": "architect",
+    "attributes": {
+      "birth_year": 1982,
+      "works": "广州塔"
+    },
+    "cluster": [
+      40
+    ]
+  },
+  "33": {
+    "name": "孙七",
+    "type": "architect",
+    "attributes": {
+      "birth_year": 1985,
+      "works": "广州塔"
+    },
+    "cluster": [
+      41
+    ]
+  }
+}
