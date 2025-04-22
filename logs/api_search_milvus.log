@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['/Users/huyanwei/Projects/text_milvus_search']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [38189] using StatReload
+INFO:     Started server process [38232]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55383 - "POST /dense_search/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'src/streamlit_entity_cluster.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38232]
+INFO:     Started server process [38297]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

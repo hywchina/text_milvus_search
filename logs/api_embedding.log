@@ -1,0 +1,22 @@
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 133860.77it/s]
+INFO:     Will watch for changes in these directories: ['/Users/huyanwei/Projects/text_milvus_search']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [38185] using StatReload
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 120873.31it/s]
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 27194.54it/s]
+INFO:     Started server process [38236]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+INFO:     127.0.0.1:55387 - "POST /embed_dense HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55392 - "POST /embed_batch_dense HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'src/streamlit_entity_cluster.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38236]
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 213995.10it/s]
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 23545.87it/s]
+INFO:     Started server process [38298]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

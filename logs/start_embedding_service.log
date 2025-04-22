@@ -1,999 +1,0 @@
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 77053.96it/s]
-INFO:     Will watch for changes in these directories: ['/Users/huyanwei/Projects/text_milvus_search']
-INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
-INFO:     Started reloader process [8341] using WatchFiles
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 157090.04it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 52167.96it/s]
-INFO:     Started server process [8465]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:53760 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53764 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53768 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53774 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_embedding.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [8465]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 141540.07it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 27419.73it/s]
-INFO:     Started server process [9703]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:53799 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53808 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53810 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53812 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54218 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54243 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [9703]
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 53385.29it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 31130.41it/s]
-INFO:     Started server process [12994]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:54314 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54320 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [12994]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 27389.88it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 36620.81it/s]
-INFO:     Started server process [14590]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:54416 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54440 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [14590]
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 145131.63it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 35206.80it/s]
-INFO:     Started server process [17278]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [17278]
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 177474.08it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 36727.71it/s]
-INFO:     Started server process [19160]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:54773 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54806 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54811 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54814 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54819 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54824 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54826 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54830 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/ingest.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [19160]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 69788.75it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 61984.79it/s]
-INFO:     Started server process [24353]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:55396 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55400 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55424 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55426 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55439 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55443 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55446 - "POST /embed_batch_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55462 - "POST /embed_batch_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [24353]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 7453.45it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 51931.13it/s]
-INFO:     Started server process [32914]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [32914]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 46741.87it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 29565.11it/s]
-INFO:     Started server process [33168]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [33168]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 39358.50it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 49734.83it/s]
-INFO:     Started server process [37900]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56289 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56294 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [37900]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 22865.55it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 127745.30it/s]
-INFO:     Started server process [38890]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56333 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56340 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56718 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56723 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [38890]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 17522.51it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 26686.98it/s]
-INFO:     Started server process [45610]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56784 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56786 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [45610]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 112750.11it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 291271.11it/s]
-INFO:     Started server process [46672]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56835 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56837 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [46672]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 98074.14it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 43675.50it/s]
-INFO:     Started server process [47230]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56860 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56862 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [47230]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 34090.79it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 54236.69it/s]
-INFO:     Started server process [48074]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56954 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56956 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [48074]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 229196.94it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 16768.27it/s]
-INFO:     Started server process [48429]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [48429]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 18193.92it/s]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 46517.23it/s]
-INFO:     Started server process [48533]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 50412.31it/s]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 11791.69it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 37684.67it/s]
-INFO:     Started server process [48820]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:57012 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57015 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [48820]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 268292.37it/s]
-WARNING:  WatchFiles detected changes in 'test/test.py', 'test/stream_milvus.py.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 52714.34it/s]
-INFO:     Started server process [69942]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/stream_milvus.py.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'test/stream_milvus.py', 'test/stream_milvus.py.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 22782.75it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 16409.64it/s]
-INFO:     Started server process [70084]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:51688 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51691 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [70084]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 77912.77it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 98380.86it/s]
-INFO:     Started server process [72089]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [72089]
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 147168.56it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 40986.68it/s]
-INFO:     Started server process [72186]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [72186]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 114598.47it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 35414.89it/s]
-INFO:     Started server process [72318]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_streamlit.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [72318]
-WARNING:  WatchFiles detected changes in 'src/search_streamlit.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 86007.60it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 70453.03it/s]
-INFO:     Started server process [73409]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [73409]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 51995.50it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 35424.86it/s]
-INFO:     Started server process [75485]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [75485]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 159479.24it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 20135.88it/s]
-INFO:     Started server process [75585]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:51958 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51960 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [75585]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 79993.08it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 51108.50it/s]
-INFO:     Started server process [82554]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [82554]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 134576.60it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 72149.72it/s]
-INFO:     Started server process [82652]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52937 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52941 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [82652]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 227128.38it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 59747.92it/s]
-INFO:     Started server process [83342]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52963 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52967 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [83342]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 60205.32it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 16358.44it/s]
-INFO:     Started server process [83636]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52977 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52979 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [83636]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 135009.79it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 25795.23it/s]
-INFO:     Started server process [87842]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [87842]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 267721.53it/s]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 17613.26it/s]
-INFO:     Started server process [87982]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 47789.26it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 33139.09it/s]
-INFO:     Started server process [88066]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:53160 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53165 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53494 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53496 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [88066]
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 201326.59it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 45392.90it/s]
-INFO:     Started server process [88992]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [88992]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 58908.76it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 34164.84it/s]
-INFO:     Started server process [89380]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [89380]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 37161.58it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 73156.47it/s]
-INFO:     Started server process [90991]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [90991]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 78741.63it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 25795.23it/s]
-INFO:     Started server process [92187]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [92187]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 23143.12it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 70413.61it/s]
-INFO:     Started server process [92585]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [92585]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 4655.68it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 42538.58it/s]
-INFO:     Started server process [9385]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [9385]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 29440.60it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 31441.56it/s]
-INFO:     Started server process [10199]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [10199]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 42125.58it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 34473.73it/s]
-INFO:     Started server process [10609]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [10609]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 40213.84it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 25997.75it/s]
-INFO:     Started server process [11645]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:65029 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:65035 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [11645]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 261056.27it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 37041.25it/s]
-INFO:     Started server process [24115]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [24115]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 46811.43it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 54050.31it/s]
-INFO:     Started server process [24227]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [24227]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 55973.81it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 37741.19it/s]
-INFO:     Started server process [24339]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [24339]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 51717.68it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 140748.46it/s]
-INFO:     Started server process [24802]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [24802]
-WARNING:  WatchFiles detected changes in 'src/search_api.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 153076.79it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 29468.18it/s]
-INFO:     Started server process [24915]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_milvus_api.py', 'src/search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [24915]
-WARNING:  WatchFiles detected changes in 'src/search_milvus_api.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 275337.24it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 31750.98it/s]
-INFO:     Started server process [25203]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'src/search_milvus_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [25203]
-WARNING:  WatchFiles detected changes in 'src/search_milvus_api.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 217697.44it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 55043.36it/s]
-INFO:     Started server process [25411]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/test_search_api.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [25411]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 280243.03it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 52341.56it/s]
-INFO:     Started server process [26636]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:49477 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49509 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49513 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49515 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [26636]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 94965.37it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 35504.83it/s]
-INFO:     Started server process [28032]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:49691 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49699 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49705 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49711 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51236 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo copy.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [28032]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 97090.37it/s]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo copy.py', 'test/streamlit_milvus_demo2.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 25575.02it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 15143.71it/s]
-INFO:     Started server process [34646]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [34646]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 38072.35it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 39519.20it/s]
-INFO:     Started server process [42676]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [42676]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 56198.80it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 60119.03it/s]
-INFO:     Started server process [42901]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52566 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52571 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52596 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52602 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52608 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [42901]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 146312.93it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 37923.18it/s]
-INFO:     Started server process [45091]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52713 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52719 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52726 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [45091]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 112750.11it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 52254.62it/s]
-INFO:     Started server process [46358]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52781 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52866 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [46358]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 59861.62it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 38562.40it/s]
-INFO:     Started server process [47147]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:52988 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52994 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53002 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53008 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53015 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53021 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53023 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53450 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53452 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53457 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [47147]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 23736.86it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 109131.93it/s]
-INFO:     Started server process [49243]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:53584 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53590 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53594 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53596 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53601 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53605 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo2 copy.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [49243]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 156115.53it/s]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py', 'test/streamlit_milvus_demo2 copy.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 14768.68it/s]
-INFO:     Started server process [49871]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 220366.23it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 28118.24it/s]
-INFO:     Started server process [49966]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [49966]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 49017.97it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 31544.03it/s]
-INFO:     Started server process [51717]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [51717]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 71291.29it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 21262.10it/s]
-INFO:     Started server process [52023]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:53861 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53870 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53874 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54496 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [52023]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 81707.22it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 29468.18it/s]
-INFO:     Started server process [57659]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:55089 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55099 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55104 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55108 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [57659]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 30931.45it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 31215.36it/s]
-INFO:     Started server process [58999]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:55392 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55397 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [58999]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 31775.03it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 105296.33it/s]
-INFO:     Started server process [59904]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     127.0.0.1:55549 - "POST /dense_search/ HTTP/1.1" 404 Not Found
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:55556 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [59904]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 248674.15it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 34211.29it/s]
-INFO:     Started server process [60425]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:55718 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55722 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [60425]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 26479.19it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 19108.45it/s]
-INFO:     Started server process [60841]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     127.0.0.1:55817 - "POST /dense_search/ HTTP/1.1" 404 Not Found
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:55823 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [60841]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 83385.77it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 18622.04it/s]
-INFO:     Started server process [61491]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56003 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56011 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [61491]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 32255.61it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 28118.24it/s]
-INFO:     Started server process [62055]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56131 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo3 copy.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [62055]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py', 'test/streamlit_milvus_demo3 copy.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 156309.47it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 50840.05it/s]
-INFO:     Started server process [63200]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [63200]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 108660.73it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 19469.15it/s]
-INFO:     Started server process [63426]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:56533 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56539 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [63426]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 186137.75it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 41107.19it/s]
-INFO:     Started server process [64699]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:57195 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57223 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [64699]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 60699.04it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 57247.10it/s]
-INFO:     Started server process [71219]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [71219]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 158474.96it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 106095.38it/s]
-INFO:     Started server process [71396]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:58114 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58122 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [71396]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 54353.83it/s]
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 36147.41it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 42323.96it/s]
-INFO:     Started server process [72095]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:58606 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58628 - "POST /embed_dense HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [72095]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 73498.32it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 40124.08it/s]
-INFO:     Started server process [74124]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  WatchFiles detected changes in 'test/streamlit_milvus_demo4.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [74124]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 212549.19it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 58254.22it/s]
-INFO:     Started server process [74272]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:59731 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59738 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59745 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59749 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59755 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59757 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59761 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59763 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/streamlit_milvus.py', 'src/search_streamlit.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [74272]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 114078.98it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 13129.08it/s]
-INFO:     Started server process [75155]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:59847 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59851 - "POST /embed_sparse HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59855 - "POST /embed_dense HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59857 - "POST /embed_sparse HTTP/1.1" 200 OK
-WARNING:  WatchFiles detected changes in 'src/streamlit_milvus.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [75155]
-WARNING:  WatchFiles detected changes in 'src/streamlit_milvus.py'. Reloading...
-WARNING:  WatchFiles detected changes in 'src/streamlit_milvus.py'. Reloading...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 21735.90it/s]
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 17522.51it/s]
-INFO:     Started server process [76826]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-INFO:     127.0.0.1:63433 - "POST /embed_sparse HTTP/1.1" 200 OK
