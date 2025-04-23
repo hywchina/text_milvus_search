@@ -60,5 +60,19 @@ else
 fi
 nohup streamlit run src/streamlit_entity_cluster.py > "$LOG_DIR/streamlit_entity_cluster.log" 2>&1 &
 
+
+echo
+ echo "===== 6. 启动 Milvus Text Search & Recommend 界面 ====="
+# kill 之前可能已经跑的 entity_cluster.py
+ENTITY_PIDS=$(pgrep -f "streamlit_milvus_search_recommend.py" || true)
+if [ -n "$ENTITY_PIDS" ]; then
+  echo "检测到已有 streamlit_milvus_search_recommend 进程，kill: $ENTITY_PIDS"
+  kill -9 $ENTITY_PIDS
+else
+  echo "未检测到已有 streamlit_milvus_search_recommend 进程"
+fi
+nohup streamlit run src/streamlit_milvus_search_recommend.py > "$LOG_DIR/streamlit_milvus_search_recommend.log" 2>&1 &
+
+
 echo
  echo ">>> 全部服务启动完毕！日志目录：$LOG_DIR"
